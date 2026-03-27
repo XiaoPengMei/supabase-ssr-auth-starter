@@ -1,0 +1,121 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f5f7fb;
+  color: #10233f;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d8e0ee;
+  border-radius: 18px;
+  box-shadow: 0 16px 36px rgba(16, 35, 63, 0.08);
+  padding: 24px;
+}
+
+.eyebrow {
+  color: #496b9a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 12px 0 16px;
+}
+
+p,
+label,
+button,
+input,
+pre {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+}
+
+input,
+button {
+  border-radius: 12px;
+  border: 1px solid #bfd0eb;
+  padding: 12px 14px;
+}
+
+button {
+  background: #1747d1;
+  border-color: #1747d1;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.secondary {
+  background: white;
+  color: #1747d1;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 20px 0;
+}
+
+.metric {
+  border: 1px solid #d8e0ee;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.metric strong {
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+
+.notice {
+  background: #eef4ff;
+  border: 1px solid #c8d9ff;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.error {
+  color: #8c1d18;
+  background: #fdecec;
+  border: 1px solid #f6c5c2;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+code {
+  background: #eef3fb;
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
